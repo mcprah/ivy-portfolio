@@ -24,7 +24,7 @@ function HomePage({ navigate }) {
                 Empowering students, championing equity, and building community with care.
               </p>
               <p className="text-secondary leading-relaxed text-sm md:text-base mb-8 max-w-lg">
-                Graduate Student Affairs Professional and M.Ed. candidate at BGSU, committed to advising, inclusive programming, and student-centered practice grounded in empathy, integrity, and continuous learning.
+                Graduate Student Affairs Professional committed to equitable, empathetic, and student-centered practice grounded in faith, integrity, and continuous learning.
               </p>
               <div className="flex flex-wrap gap-3">
                 <LiftOnHover as="button"
@@ -86,7 +86,7 @@ function HomePage({ navigate }) {
           <p className="text-xs font-bold tracking-[.22em] uppercase text-onaccent/50 mb-4">Mission Statement</p>
           <h2 id="mission-teaser" className="sr-only">Mission Statement</h2>
           <blockquote className="font-serif text-xl md:text-2xl italic leading-relaxed text-onaccent/90">
-            "My mission is to empower diverse students towards autonomy and self-discovery through empathetic guidance, fostering deep relationships, and collaborative communities."
+            "My mission is to empower diverse students towards autonomy and self-discovery through empathetic guidance, fostering deep relationships, and collaborative communities. Grounded in faith, accountability, and integrity, I champion equity, fairness, and continuous learning, supporting the unique experience from transition to purpose while navigating the evolving educational landscape with unwavering service."
           </blockquote>
           <LiftOnHover as="button"
             onClick={() => go('about')}
@@ -107,7 +107,7 @@ function HomePage({ navigate }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: 'fa-compass', title: 'Advisor', desc: 'Guiding undecided students, student-athletes, and Honors students through academic exploration, registration, and holistic development with equity-minded, culturally responsive practice.' },
-              { icon: 'fa-scale-balanced', title: 'Advocate', desc: 'Examining and challenging institutional policies that disproportionately burden marginalized students — presenting findings at professional conferences and collaborating across campus.' },
+              { icon: 'fa-scale-balanced', title: 'Advocate', desc: 'Examining and challenging institutional policies that disproportionately burden marginalized students, presenting findings at professional conferences and collaborating across campus.' },
               { icon: 'fa-people-group', title: 'Leader', desc: 'Building mentoring systems, co-curricular programming curricula, and feedback cultures that extend leadership impact, center student voice, and foster a sense of belonging.' },
               { icon: 'fa-clipboard-list', title: 'Program Coordinator', desc: 'Designing and coordinating large-scale events, experiential trips, co-curricular programming series, and recognition ceremonies that build community, belonging, and student engagement.' },
             ].map(p => (

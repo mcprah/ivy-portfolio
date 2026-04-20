@@ -32,7 +32,7 @@ function ArtifactsPage() {
                   as="button"
                   type="button"
                   onClick={() => setPreview(a)}
-                  aria-label={`Preview ${a.name} — ${a.type}`}
+                  aria-label={`Preview ${a.name}, ${a.type}`}
                   className="bg-surface border border-line rounded-xl p-6 flex flex-col hover:shadow-md transition-shadow text-left w-full focus:outline-none focus:ring-2 focus:ring-accent/40 focus:ring-offset-2 focus:ring-offset-page"
                 >
                   <div className="flex items-start justify-between mb-4">

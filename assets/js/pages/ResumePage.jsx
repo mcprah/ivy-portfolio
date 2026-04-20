@@ -38,7 +38,7 @@ function ResumePage() {
         <RSection title="Education" icon="fa-graduation-cap">
           <div className="space-y-4">
             {[
-              { deg: 'Master of Education — College Student Personnel', org: 'Bowling Green State University (BGSU)', loc: 'Bowling Green, OH', yr: 'Expected 2026' },
+              { deg: 'Master of Education, College Student Personnel', org: 'Bowling Green State University (BGSU)', loc: 'Bowling Green, OH', yr: 'Expected 2026' },
               { deg: 'Undergraduate Degree', org: 'University of Cape Coast', loc: 'Cape Coast, Ghana', yr: 'Completed' },
             ].map(e => (
               <div key={e.deg} className="flex flex-wrap justify-between items-start gap-2">
@@ -56,7 +56,7 @@ function ResumePage() {
                 <div className="flex flex-wrap justify-between items-start gap-2 mb-2">
                   <div>
                     <p className="font-semibold text-primary">{e.role}</p>
-                    <p className="text-accent text-sm font-medium">{e.dept ? `${e.dept} — ` : ''}{e.org}</p>
+                    <p className="text-accent text-sm font-medium">{e.dept ? `${e.dept}, ` : ''}{e.org}</p>
                   </div>
                   <div className="text-right shrink-0">
                     <p className="text-secondary text-sm">{e.period}</p>
@@ -95,7 +95,7 @@ function ResumePage() {
           <div className="space-y-3">
             {INVOLVEMENT.map((v, i) => (
               <div key={i} className="flex flex-wrap justify-between items-start gap-2">
-                <p className="text-sm text-secondary"><span className="font-medium text-primary">{v.role}</span> — {v.org}</p>
+                <p className="text-sm text-secondary"><span className="font-medium text-primary">{v.role}</span>, {v.org}</p>
                 <span className="text-secondary text-sm shrink-0">{v.date}</span>
               </div>
             ))}

@@ -55,7 +55,7 @@ function CompetenciesPage({ navigate }) {
                           {c.artifacts.map((a, i) => (
                             <button key={i}
                               onClick={() => { navigate('artifacts'); window.scrollTo(0, 0); }}
-                              aria-label={`Preview ${a.name} — ${a.type}`}
+                              aria-label={`Preview ${a.name}, ${a.type}`}
                               className="flex items-center gap-2 px-4 py-2 border border-accent text-accent rounded-lg text-xs font-semibold hover:bg-soft transition-colors min-h-[44px]">
                               <i className="fa-solid fa-eye text-sm" aria-hidden="true"></i>
                               {a.name}

@@ -5,10 +5,10 @@ function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start mb-20">
           <div className="lg:col-span-3">
             <SectionHeading eyebrow="About Me" title="Ophelia Ivy Mensah" />
-            <p className="text-secondary leading-relaxed mb-4">I am an international student from Ghana and M.Ed. candidate in Bowling Green State University's College of Student Personnel program. My journey into student affairs began with a deep belief that education is transformational — that it shapes not only what students know, but who they become.</p>
-            <p className="text-secondary leading-relaxed mb-4">As an introvert, I thrive in one-on-one conversations where depth and presence are at the core. This has made academic advising a natural fit — a space to build intentional relationships and support students through academic, personal, and career transitions.</p>
-            <p className="text-secondary leading-relaxed mb-4">My international background as a student navigating an unfamiliar system has sharpened my sensitivity to the experiences of others in similar positions, and intensified my commitment to advocating for policies and structures that genuinely serve all students — not just symbolically.</p>
-            <p className="text-secondary leading-relaxed">Having personally benefited from guidance within student affairs, I feel a profound responsibility to provide similar meaningful support to current and future students — grounded in equity, integrity, and a commitment to holistic student development.</p>
+            <p className="text-secondary leading-relaxed mb-4">I am a Ghanaian international student and a College Student Personnel graduate at Bowling Green State University. My entry into student affairs is rooted in a foundational belief that education is transformational, shaping not only what students know but who we become.</p>
+            <p className="text-secondary leading-relaxed mb-4">As someone who leads with depth over breadth, I am drawn to the intentionality of one-on-one engagement. Advising and supporting has been a natural fit, a space where careful listening and relational presence translate directly into student support across academic, personal, and career transitions.</p>
+            <p className="text-secondary leading-relaxed mb-4">My experience navigating higher education as an international student has been both instructive and clarifying. It deepened my awareness of the structural and cultural barriers that shape student success and strengthened my commitment to advocating for policies that serve all students equitably, not merely in principle but in practice.</p>
+            <p className="text-secondary leading-relaxed">Having benefited from meaningful guidance within student affairs, I am driven by a sense of professional responsibility to extend that same quality of support to the students I serve, grounded in equity, integrity, and a commitment to holistic development.</p>
           </div>
           <div className="lg:col-span-2 space-y-5">
             <PortfolioImage image={IMAGE_LIBRARY.bgsuMascot} className="aspect-[4/5] max-w-sm mx-auto lg:mx-0" imgClassName="object-[52%_20%]" />
@@ -33,7 +33,7 @@ function AboutPage() {
           <p className="text-xs font-bold tracking-[.22em] uppercase text-onaccent/50 mb-3">My Professional Mission</p>
           <h2 id="mission-h" className="font-serif text-2xl font-bold text-onaccent mb-6">Mission Statement</h2>
           <blockquote className="font-serif text-lg md:text-xl italic leading-relaxed text-onaccent/90 border-l-4 border-onaccent/30 pl-6">
-            "My mission is to empower diverse students towards autonomy and self-discovery through empathetic guidance, fostering deep relationships, and collaborative communities. Guided by faith, accountability, and integrity, I champion equity, fairness, and continuous learning, supporting each unique journey from transition to purpose and navigating the evolving educational landscape with unwavering service."
+            "My mission is to empower diverse students towards autonomy and self-discovery through empathetic guidance, fostering deep relationships, and collaborative communities. Grounded in faith, accountability, and integrity, I champion equity, fairness, and continuous learning, supporting the unique experience from transition to purpose while navigating the evolving educational landscape with unwavering service."
           </blockquote>
         </Reveal>
 

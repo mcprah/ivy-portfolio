@@ -34,7 +34,7 @@ function ContactPage() {
         <SectionHeading
           eyebrow="Get in Touch"
           title="Contact"
-          subtitle="I would love to connect — whether you have questions about my portfolio, experience, or are interested in collaborating."
+          subtitle="I would love to connect, whether you have questions about my portfolio, experience, or are interested in collaborating."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -61,8 +61,8 @@ function ContactPage() {
             </div>
 
             <blockquote className="border-l-4 border-accent pl-5 py-1">
-              <p className="font-serif italic text-secondary text-sm leading-relaxed">"Guided by faith, accountability, and integrity, I champion equity, fairness, and continuous learning, supporting each unique journey from transition to purpose."</p>
-              <footer className="mt-2 text-xs text-tertiary">— Ophelia Ivy Mensah, Mission Statement</footer>
+              <p className="font-serif italic text-secondary text-sm leading-relaxed">"Grounded in faith, accountability, and integrity, I champion equity, fairness, and continuous learning, supporting the unique experience from transition to purpose while navigating the evolving educational landscape with unwavering service."</p>
+              <footer className="mt-2 text-xs text-tertiary">Ophelia Ivy Mensah, Mission Statement</footer>
             </blockquote>
           </Reveal>
 

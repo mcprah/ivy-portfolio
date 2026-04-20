@@ -27,11 +27,11 @@
 
     const EXPERIENCE = [
       {
-        role: 'Graduate Assistant — Assistant Program Coordinator',
+        role: 'Graduate Assistant, Assistant Program Coordinator',
         dept: 'Honors College',
         org:  'Bowling Green State University',
         loc:  'Bowling Green, OH',
-        period: 'August 2024 – Present',
+        period: 'August 2024 to Present',
         bullets: [
           'Built academic engagement, belonging, and inclusion among 500+ Honors Learning Community students by coordinating large-scale events, experiential trips, and workshops.',
           'Promoted identity exploration and strengthened community connection by supervising Honors Students of Color and Honors Learning Community Fellows through program planning, mentorship, and dialogue-based initiatives.',
@@ -46,7 +46,7 @@
         dept: 'Office of Academic Advising and Planning',
         org:  'Bowling Green State University',
         loc:  'Bowling Green, OH',
-        period: 'August – December 2025',
+        period: 'August to December 2025',
         bullets: [
           'Strengthened student success and retention for 50+ students through proactive advising, course registration, and referrals to key campus resources.',
           'Led new-student onboarding and enrollment readiness by delivering advising support during campaigns and one-on-one enrollment appointments.',
@@ -58,7 +58,7 @@
         dept: 'Residence Life',
         org:  'Bowling Green State University',
         loc:  'Bowling Green, OH',
-        period: 'May – August 2025',
+        period: 'May to August 2025',
         bullets: [
           'Improved guest experience by providing front-line service and clearly communicating Residence Life policies.',
           'Simplified conference operations for 3,000+ guests across 50+ schools and faith-based organizations by coordinating check-in/out and managing access control.',
@@ -70,7 +70,7 @@
         dept: 'Student-Athlete Services',
         org:  'Bowling Green State University',
         loc:  'Bowling Green, OH',
-        period: 'January – May 2025',
+        period: 'January to May 2025',
         bullets: [
           'Supported student-athlete success and NCAA compliance readiness by reinforcing compliance education and monitoring academic progress across multiple sports.',
           'Co-led planning and execution of the Ziggy Awards recognizing outstanding student-athletes for academic and athletic excellence.',
@@ -78,11 +78,11 @@
         ],
       },
       {
-        role: 'National Service — Administrative Assistant',
+        role: 'National Service, Administrative Assistant',
         dept: 'College of Distance Education',
         org:  'University of Cape Coast',
-        loc:  'Cape Coast, Ghana — West Africa',
-        period: 'August 2018 – August 2019',
+        loc:  'Cape Coast, Ghana, West Africa',
+        period: 'August 2018 to August 2019',
         bullets: [
           'Upheld academic integrity by proctoring university examinations and ensuring adherence to institutional policies.',
           'Strengthened student support by liaising between the university, education centers, and students on policies and registration.',
@@ -93,8 +93,8 @@
         role: 'Customer Service & Sales Intern',
         dept: '',
         org:  'Telecel Ghana (formerly Vodafone Ghana)',
-        loc:  'Takoradi, Ghana — West Africa',
-        period: 'August – September 2015 & 2016',
+        loc:  'Takoradi, Ghana, West Africa',
+        period: 'August to September 2015 & 2016',
         bullets: [
           'Expanded Telecel Cash enrollment and regional membership by leading and coaching a team of sales executives.',
           'Enhanced customer satisfaction by delivering front-line support and resolving complaints professionally.',
@@ -111,7 +111,7 @@
 
     const INVOLVEMENT = [
       { role: 'Ambassador', org: 'ACPA Graduate Students & New Professionals (GSNP)', date: 'February 2025' },
-      { role: 'Attendee', org: 'ACPA Annual Convention — Long Beach, California', date: 'February 2025' },
+      { role: 'Attendee', org: 'ACPA Annual Convention, Long Beach, California', date: 'February 2025' },
       { role: 'Certificate', org: 'Leadership, Entrepreneurship and Career Development', date: 'August 2023' },
     ];
 
@@ -122,60 +122,57 @@
     ];
 
     const PERSONAL_VALUES = [
-      { name: 'Relationship & Community', icon: 'fa-hands-holding-heart', desc: 'An intentional practice dedicated to fostering connections that are mutually sustaining and deeply rooted in belonging — shaped by cultural roots that teach collective responsibility.' },
-      { name: 'Integrity',               icon: 'fa-shield-halved',        desc: 'An unwavering commitment to principles — doing what is right when no one is watching, owning mistakes, crediting others, and honoring every commitment made.' },
-      { name: 'Diversity',               icon: 'fa-people-group',         desc: 'Embracing culture, language, race, nationality, gender, and lived experience without reducing people to singular narratives — a stance of humility and genuine curiosity.' },
-      { name: 'Autonomy',                icon: 'fa-compass',              desc: 'Self-governance and critical thinking, ensuring personal actions remain consistent with values and informed decisions — forged by the choice to pursue education abroad.' },
-      { name: 'Faith',                   icon: 'fa-seedling',             desc: 'A profound way of living — embodying confidence and commitment to purpose amid uncertainty, built through seasons of intense adaptation and challenge.' },
+      { name: 'Relationship & Community', icon: 'fa-hands-holding-heart', desc: 'An intentional practice dedicated to fostering connections that are mutually sustaining and deeply rooted in belonging, shaped by cultural roots that teach collective responsibility.' },
+      { name: 'Integrity',               icon: 'fa-shield-halved',        desc: 'An unwavering commitment to principles, doing what is right when no one is watching, owning mistakes, crediting others, and honoring every commitment made.' },
+      { name: 'Diversity',               icon: 'fa-people-group',         desc: 'Embracing culture, language, race, nationality, gender, and lived experience without reducing people to singular narratives, a stance of humility and genuine curiosity.' },
+      { name: 'Autonomy',                icon: 'fa-compass',              desc: 'Self-governance and critical thinking, ensuring personal actions remain consistent with values and informed decisions, forged by the choice to pursue education abroad.' },
+      { name: 'Faith',                   icon: 'fa-seedling',             desc: 'A profound way of living, embodying confidence and commitment to purpose amid uncertainty, built through seasons of intense adaptation and challenge.' },
     ];
 
     const PROFESSIONAL_VALUES = [
-      { name: 'Service',             icon: 'fa-hand-holding-hand', desc: 'An ethic of care expressed through consistent, reliable presence — proactively removing barriers and connecting students to resources as a collaborative endeavor.' },
-      { name: 'Collaboration',       icon: 'fa-handshake',         desc: 'A deliberate practice to build shared ownership around student needs — coordinating across offices to ensure students move through their journeys with clarity and confidence.' },
-      { name: 'Equity & Fairness',   icon: 'fa-scale-balanced',    desc: 'Acknowledging that students begin from different starting points — designing support and advocating for policies that honor those diverse realities and remove institutional barriers.' },
-      { name: 'Transparency',        icon: 'fa-eye',               desc: 'Proactive communication of policies, reasoning, and decisions — fostering open dialogue with students and colleagues to build environments of trust and informed agency.' },
+      { name: 'Service',             icon: 'fa-hand-holding-hand', desc: 'An ethic of care expressed through consistent, reliable presence, proactively removing barriers and connecting students to resources as a collaborative endeavor.' },
+      { name: 'Collaboration',       icon: 'fa-handshake',         desc: 'A deliberate practice to build shared ownership around student needs, coordinating across offices to ensure students move through their journeys with clarity and confidence.' },
+      { name: 'Equity & Fairness',   icon: 'fa-scale-balanced',    desc: 'Acknowledging that students begin from different starting points, designing support and advocating for policies that honor those diverse realities and remove institutional barriers.' },
+      { name: 'Transparency',        icon: 'fa-eye',               desc: 'Proactive communication of policies, reasoning, and decisions, fostering open dialogue with students and colleagues to build environments of trust and informed agency.' },
       { name: 'Continuous Learning', icon: 'fa-book-open',         desc: 'Pursuing ongoing professional development, reflective practice, and assessment skills so advising work improves over time and remains responsive to evolving student needs.' },
     ];
 
     const COMPETENCIES = [
       {
         id: 'as', title: 'Advising & Supporting', abbr: 'AS', level: 'exemplary',
-        summary: 'Documents advanced competency in advising through practicum experiences at the Office of Academic Advising & Planning, Student-Athlete Services, and the Honors College video profile project — demonstrating culturally responsive communication, theory-informed practice, crisis referral, and equitable advising philosophy.',
+        summary: 'Documents advanced competency in advising through practicum experiences at the Office of Academic Advising & Planning, Student-Athlete Services, and the Honors College video profile project, demonstrating culturally responsive communication, theory-informed practice, crisis referral, and equitable advising philosophy.',
         activities: [
-          { title: 'Fall Practicum — Office of Academic Advising & Planning (Fall 2025)', desc: 'Advised and supported a caseload of 29 undecided Bachelor of Science students through major exploration, academic planning, and registration guidance. Conducted one-on-one appointments, drop-in advising, and workshops. Identified students in academic distress and followed crisis referral protocols, connecting them to counseling, Dean of Students, and financial aid.' },
-          { title: 'Spring Practicum — Student-Athlete Services (Spring 2025)', desc: 'Advised student-athletes navigating academic eligibility, NCAA compliance, and identity-related transitions. Applied Sanford\'s Challenge and Support Theory and Schlossberg\'s Transition Theory. Leveraged an international background to build strong connections with students navigating dual identities.' },
-          { title: 'Honors College Video Profile Project', desc: 'Developed structured interview questions for a video initiative documenting Honors student experiences — designed to promote authentic student voice, recognize diverse paths through the Honors Program, and serve as an accessible virtual advising resource.' },
+          { title: 'Fall Practicum, Office of Academic Advising & Planning (Fall 2025)', desc: 'Advised and supported a caseload of 29 undecided Bachelor of Science students through major exploration, academic planning, and registration guidance. Conducted one-on-one appointments, drop-in advising, and workshops. Identified students in academic distress and followed crisis referral protocols, connecting them to counseling, Dean of Students, and financial aid.' },
+          { title: 'Spring Practicum, Student-Athlete Services (Spring 2025)', desc: 'Advised student-athletes navigating academic eligibility, NCAA compliance, and identity-related transitions. Applied Sanford\'s Challenge and Support Theory and Schlossberg\'s Transition Theory. Leveraged an international background to build strong connections with students navigating dual identities.' },
+          { title: 'Honors College Video Profile Project', desc: 'Developed structured interview questions for a video initiative documenting Honors student experiences, designed to promote authentic student voice, recognize diverse paths through the Honors Program, and serve as an accessible virtual advising resource.' },
         ],
         artifacts: [
           { name: 'Advising Philosophy Statement', type: 'PDF' },
-          { name: 'Fall Practicum Presentation (OAAP)', type: 'PPTX' },
-          { name: 'Student-Athlete Practicum Presentation', type: 'PPTX' },
-          { name: 'Honors Project Interview Questions', type: 'DOCX' },
+          { name: 'Fall Practicum Presentation (OAAP)', type: 'PDF' },
+          { name: 'Student-Athlete Practicum Presentation', type: 'PDF' },
         ],
       },
       {
         id: 'sji', title: 'Social Justice & Inclusion', abbr: 'SJI', level: 'exemplary',
         summary: 'Demonstrates exemplary practice through a rigorous scholarly equity audit examining BGSU\'s mandatory health insurance policy, application of Critical Race Theory and institutional accountability frameworks, and public advocacy at the 2026 OCPA Annual Conference.',
         activities: [
-          { title: 'Equity Audit — BGSU Health Insurance Policy (CSP 6035)', desc: 'Conducted a scholarly equity audit documenting how BGSU\'s mandatory automatic enrollment, vague waiver process, and fee payment structure disproportionately burden international students. Drew on McNair, Bensimon & Malcom-Piqueux (2020), Victor Ray (2023), and Valencia (2012, 2019). Proposed concrete recommendations including insurance literacy education, waiver reform, international student representation on policy bodies, and a peer health navigator program.' },
-          { title: 'OCPA Conference Presentation — February 2026', desc: 'Presented findings on health equity and international student experiences at the Ohio College Personnel Association Annual Conference — contributing to statewide professional discourse on dismantling structural inequities, and offering consultation to student affairs professionals on strategies to dismantle systems of oppression in institutional policy.' },
+          { title: 'Equity Audit, BGSU Health Insurance Policy (CSP 6035)', desc: 'Conducted a scholarly equity audit documenting how BGSU\'s mandatory automatic enrollment, vague waiver process, and fee payment structure disproportionately burden international students. Drew on McNair, Bensimon & Malcom-Piqueux (2020), Victor Ray (2023), and Valencia (2012, 2019). Proposed concrete recommendations including insurance literacy education, waiver reform, international student representation on policy bodies, and a peer health navigator program.' },
+          { title: 'OCPA Conference Presentation, February 2026', desc: 'Presented findings on health equity and international student experiences at the Ohio College Personnel Association Annual Conference, contributing to statewide professional discourse on dismantling structural inequities, and offering consultation to student affairs professionals on strategies to dismantle systems of oppression in institutional policy.' },
         ],
         artifacts: [
-          { name: 'Final Equity Audit Document', type: 'DOCX' },
-          { name: 'OCPA Conference Presentation Slides', type: 'PPTX' },
+          { name: 'Final Equity Audit Document', type: 'PDF' },
+          { name: 'OCPA Conference Presentation Slides', type: 'PDF' },
         ],
       },
       {
         id: 'lead', title: 'Leadership', abbr: 'LEAD', level: 'exemplary',
         summary: 'Demonstrates advanced leadership through institutionalizing mentoring systems, building feedback cultures, developing a sustained co-curricular curriculum, and leading student travel experiences across the country.',
         activities: [
-          { title: 'HSOC Event Planning Form — Mentoring Instrument', desc: 'Developed a comprehensive planning tool to mentor Honors Students of Color leaders through every phase of event management — from articulating learning outcomes and building procurement budgets to designing publicity strategies, coordinating logistics, and completing post-event reflection. An institutionalized mentoring structure embedded into programming practice.' },
+          { title: 'HSOC Event Planning Form, Mentoring Instrument', desc: 'Developed a comprehensive planning tool to mentor Honors Students of Color leaders through every phase of event management, from articulating learning outcomes and building procurement budgets to designing publicity strategies, coordinating logistics, and completing post-event reflection. An institutionalized mentoring structure embedded into programming practice.' },
           { title: 'Community Meals Co-Curricular Series', desc: 'Coordinated a sustained programming curriculum covering financial literacy, mental health and wellness, time management, post-graduation financial planning, CV writing, LinkedIn development, and interview preparation. Collaborated with external partners including PNC Bank and the Kuhlin Hub. Built feedback mechanisms directly into each program design.' },
         ],
         artifacts: [
-          { name: 'Community Meal Financial Literacy Planning Doc', type: 'DOCX' },
-          { name: 'March Community Meal Email Template', type: 'DOCX' },
-          { name: 'HSOC Event Planning Form', type: 'DOCX' },
+          { name: 'HSOC Event Planning Form', type: 'PDF' },
         ],
       },
       {
@@ -183,7 +180,7 @@
         summary: 'Proficient in designing sustainable data collection systems, applying quantitative and qualitative research methods, and using evidence to inform student affairs practice and eliminate redundant programming.',
         activities: [
           { title: 'Statistics & Research Methods Coursework (EDFI 6410)', desc: 'Developed skills in descriptive and inferential statistics, hypothesis testing, and interpreting statistical results in published research. Applied qualitative, quantitative, and mixed-methods research design frameworks across course assignments.' },
-          { title: 'Assessment Systems — Qualtrics, MS Forms, SharePoint', desc: 'Designed and implemented pre/post-event feedback systems, mid-semester check-ins, and a "pulse check" end-of-semester reflection tool to evaluate program quality and capture student interest. Used resulting data to eliminate redundant programming and make data-informed resource allocation decisions.' },
+          { title: 'Assessment Systems, Qualtrics, MS Forms, SharePoint', desc: 'Designed and implemented pre/post-event feedback systems, mid-semester check-ins, and a "pulse check" end-of-semester reflection tool to evaluate program quality and capture student interest. Used resulting data to eliminate redundant programming and make data-informed resource allocation decisions.' },
         ],
         artifacts: [],
       },
@@ -191,8 +188,8 @@
         id: 'pef', title: 'Personal & Ethical Foundations', abbr: 'PEF', level: 'proficient',
         summary: 'Developed proficiency in managing competing professional and personal priorities, applying ethical judgment in ambiguous situations, and maintaining congruence between personal values and professional practice.',
         activities: [
-          { title: 'Balancing Multiple Graduate Roles', desc: 'Intentionally structured time across graduate assistantship, practicum placements, coursework, and personal life — developing capacity to identify sources of dissonance, seek appropriate support, and build sustainable habits that maintain both wellbeing and professional commitments.' },
-          { title: 'Ethical Practice with Confidential Student Information', desc: 'Handled confidential student data and navigated follow-up communication requiring sound ethical judgment. Drew on both personal values and ACPA/NASPA professional standards to navigate tensions between institutional procedures and ethical instincts — developing a mission statement through PCA writing that reflects this integration.' },
+          { title: 'Balancing Multiple Graduate Roles', desc: 'Intentionally structured time across graduate assistantship, practicum placements, coursework, and personal life, developing capacity to identify sources of dissonance, seek appropriate support, and build sustainable habits that maintain both wellbeing and professional commitments.' },
+          { title: 'Ethical Practice with Confidential Student Information', desc: 'Handled confidential student data and navigated follow-up communication requiring sound ethical judgment. Drew on both personal values and ACPA/NASPA professional standards to navigate tensions between institutional procedures and ethical instincts, developing a mission statement through PCA writing that reflects this integration.' },
         ],
         artifacts: [],
       },
@@ -200,8 +197,8 @@
         id: 'sld', title: 'Student Learning & Development', abbr: 'SLD', level: 'proficient',
         summary: 'Enhanced proficiency in creating intentional learning experiences, designing outcomes-aligned programs, and applying student development theory to practice within the Honors College and through CSP coursework.',
         activities: [
-          { title: 'Learning Goals for Honors College Events & Trips', desc: 'Developed specific learning goals for trips, events, and programs — considering educational outcomes from museums, travel, and co-curricular activities. Collected pre-trip reflections and post-activity assessments tied explicitly to stated goals, using student feedback to continuously improve programming alignment with student needs.' },
-          { title: 'CSP 6040 — Curricular Approach to Student Affairs', desc: 'Explored alignment of learning outcomes with institutional mission, strategic priorities, and core values. Evolved from participation in programming to critically analyzing the purpose and developmental intention behind programs, bridging theory to practice through real Honors College contexts.' },
+          { title: 'Learning Goals for Honors College Events & Trips', desc: 'Developed specific learning goals for trips, events, and programs, considering educational outcomes from museums, travel, and co-curricular activities. Collected pre-trip reflections and post-activity assessments tied explicitly to stated goals, using student feedback to continuously improve programming alignment with student needs.' },
+          { title: 'CSP 6040, Curricular Approach to Student Affairs', desc: 'Explored alignment of learning outcomes with institutional mission, strategic priorities, and core values. Evolved from participation in programming to critically analyzing the purpose and developmental intention behind programs, bridging theory to practice through real Honors College contexts.' },
         ],
         artifacts: [],
       },
@@ -209,8 +206,8 @@
         id: 'vph', title: 'Values, Philosophy & History', abbr: 'VPH', level: 'foundational',
         summary: 'Built foundational understanding of the philosophical, historical, and value frameworks underpinning the student affairs profession through policy analysis and functional area research.',
         activities: [
-          { title: 'Historical Timeline — FERPA Act & Obama College Scorecard', desc: 'Created a historical timeline examining major policy developments shaping the student-institutional relationship.' },
-          { title: 'Counseling Services Functional Area Research — CSP 6010', desc: 'Researched counseling services as a foundational functional area, examining its historical roots, philosophical grounding, and place in the broader student affairs profession.' },
+          { title: 'Historical Timeline, FERPA Act & Obama College Scorecard', desc: 'Created a historical timeline examining major policy developments shaping the student-institutional relationship.' },
+          { title: 'Counseling Services Functional Area Research, CSP 6010', desc: 'Researched counseling services as a foundational functional area, examining its historical roots, philosophical grounding, and place in the broader student affairs profession.' },
         ],
         artifacts: [],
       },
@@ -218,8 +215,8 @@
         id: 'lpg', title: 'Law, Policy & Governance', abbr: 'LPG', level: 'foundational',
         summary: 'Gained foundational understanding of governance structures, institutional policies, and legal expectations shaping student affairs practice through coursework and applied experience.',
         activities: [
-          { title: 'CSP 6040 — Governance & Institutional Structures', desc: 'Built foundational knowledge of how higher education institutions are shaped by governance, policy, mission, and organizational structures — identifying stakeholders and policymakers who influence institutional priorities.' },
-          { title: 'Honors LC Travel Guidelines & Compliance Documentation', desc: 'Provided travel guidelines, medical/liability forms, and conduct-related travel information — developing understanding of how institutional policy shapes student participation, safety, accountability, and conduct.' },
+          { title: 'CSP 6040, Governance & Institutional Structures', desc: 'Built foundational knowledge of how higher education institutions are shaped by governance, policy, mission, and organizational structures, identifying stakeholders and policymakers who influence institutional priorities.' },
+          { title: 'Honors LC Travel Guidelines & Compliance Documentation', desc: 'Provided travel guidelines, medical/liability forms, and conduct-related travel information, developing understanding of how institutional policy shapes student participation, safety, accountability, and conduct.' },
         ],
         artifacts: [],
       },
@@ -227,8 +224,8 @@
         id: 'ohr', title: 'Organizational & Human Resource', abbr: 'OHR', level: 'foundational',
         summary: 'Developed foundational knowledge in ethical hiring practices, organizational budget management, and human resource decision-making through committee work and program planning.',
         activities: [
-          { title: 'Staff Search Committee — Honors LC & School of Media', desc: 'Served on a search committee conducting phone interviews and reviewing candidates against a structured rubric, collaborating across offices to reach an equitable hiring decision.' },
-          { title: 'Scholarship Review Board & Budget Management', desc: 'Participated in the Honors LC scholarship review board and constructed event budgets — soliciting vendor quotes across food, logistics, transportation, hotels, and conference materials to maintain fiscal discipline.' },
+          { title: 'Staff Search Committee, Honors LC & School of Media', desc: 'Served on a search committee conducting phone interviews and reviewing candidates against a structured rubric, collaborating across offices to reach an equitable hiring decision.' },
+          { title: 'Scholarship Review Board & Budget Management', desc: 'Participated in the Honors LC scholarship review board and constructed event budgets, soliciting vendor quotes across food, logistics, transportation, hotels, and conference materials to maintain fiscal discipline.' },
         ],
         artifacts: [],
       },
@@ -237,10 +234,11 @@
     const ARTIFACTS = [
       { id:1, name:'Advising Philosophy Statement',          comp:'Advising & Supporting',      abbr:'AS',   level:'exemplary', desc:'A personal advising philosophy rooted in equity-mindedness, culturally responsive practice, relational trust, and student empowerment.', type:'PDF', file:'/assets/docs/advising-philosophy-statement.pdf' },
       { id:2, name:'Fall Practicum Presentation (OAAP)',     comp:'Advising & Supporting',      abbr:'AS',   level:'exemplary', desc:'Slide presentation from the Fall 2025 practicum at the Office of Academic Advising and Planning showcasing caseload advising work.', type:'PDF', file:'/assets/docs/fall-practicum-presentation-oaap.pdf' },
-      { id:3, name:'Student-Athlete Practicum Presentation', comp:'Advising & Supporting',      abbr:'AS',   level:'exemplary', desc:'PowerPoint documenting Spring 2025 practicum at Student-Athlete Services — goal assessment, professional competencies, and supervisor reflections.', type:'PDF', file:'/assets/docs/student-athlete-practicum-presentation.pdf' },
-      { id:4, name:'HSOC Event Planning Form',               comp:'Leadership',                 abbr:'LEAD', level:'exemplary', desc:'Comprehensive mentoring tool developed to guide Honors Students of Color leaders through every phase of event management.', type:'PDF', file:'/assets/docs/hsoc-event-planning-form.pdf' },
-      { id:5, name:'OCPA Conference Presentation Slides',    comp:'Social Justice & Inclusion', abbr:'SJI',  level:'exemplary', desc:'Presentation slides from the February 2026 OCPA Annual Conference on rethinking health insurance equity for international students.', type:'PDF', file:'/assets/docs/ocpa-conference-presentation-slides.pdf' },
-      { id:6, name:'Capstone Research Presentation',         comp:'Research',                   abbr:'RES',  level:'exemplary', desc:'Capstone graduate research presentation synthesizing findings on equity, access, and student success in higher education — presented as part of M.Ed. program completion at BGSU.', type:'PDF', file:'/assets/docs/capstone-research-presentation.pdf', featured:true },
+      { id:3, name:'Student-Athlete Practicum Presentation', comp:'Advising & Supporting',      abbr:'AS',   level:'exemplary', desc:'PowerPoint documenting Spring 2025 practicum at Student-Athlete Services, goal assessment, professional competencies, and supervisor reflections.', type:'PDF', file:'/assets/docs/student-athlete-practicum-presentation.pdf' },
+      { id:4, name:'Final Equity Audit Document',            comp:'Social Justice & Inclusion', abbr:'SJI',  level:'exemplary', desc:'Scholarly equity audit examining BGSU health insurance policy and its disproportionate impact on international students.', type:'PDF', file:'/assets/docs/final-equity-audit-document.pdf' },
+      { id:5, name:'HSOC Event Planning Form',               comp:'Leadership',                 abbr:'LEAD', level:'exemplary', desc:'Comprehensive mentoring tool developed to guide Honors Students of Color leaders through every phase of event management.', type:'PDF', file:'/assets/docs/hsoc-event-planning-form.pdf' },
+      { id:6, name:'OCPA Conference Presentation Slides',    comp:'Social Justice & Inclusion', abbr:'SJI',  level:'exemplary', desc:'Presentation slides from the February 2026 OCPA Annual Conference on rethinking health insurance equity for international students.', type:'PDF', file:'/assets/docs/ocpa-conference-presentation-slides.pdf' },
+      { id:7, name:'Capstone Research Presentation',         comp:'Research',                   abbr:'RES',  level:'exemplary', desc:'Capstone graduate research presentation synthesizing findings on equity, access, and student success in higher education, presented as part of M.Ed. program completion at BGSU.', type:'PDF', file:'/assets/docs/capstone-research-presentation.pdf', featured:true },
     ];
 
     const LEVEL_STYLES = {
@@ -251,9 +249,9 @@
 
     const IMAGE_LIBRARY = {
       chicagoPortrait: {
-        src: '/assets/images/CHICAGO.Jpeg',
-        alt: 'Ophelia Ivy Mensah smiling in front of Cloud Gate in Chicago.',
-        caption: 'Chicago experiential learning trip',
+        src: '/assets/images/professional-headshot.jpeg',
+        alt: 'Professional headshot of Ophelia Ivy Mensah.',
+        caption: 'Professional headshot',
       },
       chicagoGroup: {
         src: '/assets/images/CHICAGO 1.jpeg',
@@ -266,9 +264,9 @@
         caption: 'Honors Learning Community programming',
       },
       bgsuMascot: {
-        src: '/assets/images/IMG_7415.JPEG',
-        alt: 'Ophelia Ivy Mensah posing with the BGSU mascot and a colleague.',
-        caption: 'Campus pride and student engagement',
+        src: '/assets/images/professional-headshot.jpeg',
+        alt: 'Professional headshot of Ophelia Ivy Mensah.',
+        caption: 'Professional headshot',
       },
       marsDiversity: {
         src: '/assets/images/IMG_7610.JPG',
@@ -524,7 +522,7 @@
 
               <button onClick={() => go('home')}
                 className="font-serif text-base md:text-lg font-bold text-primary hover:text-accent transition-colors"
-                aria-label="Ophelia Ivy Mensah — return to home">
+                aria-label="Ophelia Ivy Mensah, return to home">
                 Ophelia Ivy Mensah
               </button>
 
