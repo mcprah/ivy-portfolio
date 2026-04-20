@@ -65,7 +65,7 @@ function CompetenciesPage({ navigate }) {
                       </>
                     )}
 
-                    {(COMPETENCY_PHOTOS[c.id] || []).length > 0 && (
+                    {/* {(COMPETENCY_PHOTOS[c.id] || []).length > 0 && (
                       <div className="mt-7 pt-5 border-t border-line">
                         <div className="flex items-center gap-2 mb-4">
                           <i className="fa-solid fa-images text-tertiary text-xs" aria-hidden="true"></i>
@@ -85,7 +85,7 @@ function CompetenciesPage({ navigate }) {
                           })}
                         </div>
                       </div>
-                    )}
+                    )} */}
                   </Accordion>
                 ))}
               </div>
